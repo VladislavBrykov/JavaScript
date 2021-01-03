@@ -33,5 +33,6 @@ function workSql() {
             console.log(result);
         })
     }
+    connection.end();
 
 module.exports = workSql;
